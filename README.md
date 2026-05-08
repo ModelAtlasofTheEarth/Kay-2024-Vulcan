@@ -12,6 +12,7 @@ Ben Kay ([0000-0002-9738-7277](https://orcid.org/0000-0002-9738-7277))
   
 **Model slug:**  
 
+
 `Kay-2024-Vulcan-1` 
 
 (this will be the name of the model repository when created) 
@@ -120,7 +121,7 @@ CGG RLM-3D
 ## Section 4: web material (for mate.science)   
 **Landing page image:**  
 
-Filename: [None]()  
+Filename: [Vulcan_Graphical_Abstract_MATE.png](<https://github.com/user-attachments/assets/1d873775-f924-4c1c-872f-2f92d4ecdb92>)  
 Caption: 3D perspective views of the smooth (top) and tear (bottom) resistivity models, highlighting differences in basement structure. Clipped resistivity values (30–60 Ωm) emphasise the vertical conductive feature and haematite breccia zone; the tear model better resolves structure at the top of basement consistent with drillhole and gravity constraints.  
   
 **Animation:**  
@@ -129,19 +130,19 @@ Filename: [None]()
   
 **Graphic abstract:**  
 
-Filename: [None]()  
+Filename: [Vulcan_CrossSections_MATE.png](<https://github.com/user-attachments/assets/5dafaae7-e0c0-4489-bf79-1ba7aefc15d1>)
+
 Caption: Comparison of smooth and tear-constrained 3D resistivity models showing improved resolution of basement structures and strong spatial agreement with gravity and drillhole constraints, highlighting a conductive pathway linked to the mineral system.  
   
 **Model setup figure:**  
 
-Filename: [None]()  
+Filename: [Model_Setup.png](<https://github.com/user-attachments/assets/5d5f9d43-f624-4f76-bb0b-c6c7e72f1ddb>)  
 Caption: Inversion mesh used for 3D MT modelling, including padding cells and a structural “tear” boundary at the base of the sedimentary cover. MT site locations are shown as black triangles; drillhole logs provide constraints on the tear depth. Mesh projection UTM Zone 54S.  
-Description:  The 3D resistivity models were generated using a non-linear conjugate gradient (NLCG) inversion scheme with L-BFGS preconditioning, designed to produce smooth, data-consistent models. A maximum of 50 inversion iterations was applied, with adjoint updates performed periodically during optimisation.
+
+Description: The 3D resistivity models were generated using a non-linear conjugate gradient (NLCG) inversion scheme with L-BFGS preconditioning, designed to produce smooth, data-consistent models. A maximum of 50 inversion iterations was applied, with adjoint updates performed periodically during optimisation.
 
 The inversion utilised magnetotelluric impedance tensor data over a frequency range of 0.01-100 Hz, sampled at approximately four points per decade. All four complex impedance components were inverted, with simultaneous estimation of frequency-independent 2×2 galvanic distortion matrices at each site. A strong regularisation weight (1000) was applied to keep distortion matrices close to the identity.
 
 Forward modelling and sensitivity calculations were controlled with solver tolerances of 1×10⁻⁶ and 1×10⁻⁵, respectively, with a maximum of 1000 iterations per linear solve. A 1D adjoint approximation was used to improve computational efficiency.
 
 Model resistivity was bounded between 0.5 and 5000 Ωm. Regularisation followed a smoothest-model approach using a hybrid Laplacian formulation, with anisotropic smoothing applied via vertical (τ = 0.006) and horizontal (τ = 2) weighting parameters. Additional near-surface smoothing was imposed to a depth of 500 m to suppress inversion artefacts and reflect the expected lateral continuity of sedimentary cover.
-
-  
