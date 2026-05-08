@@ -1,0 +1,30 @@
+Field,Value
+Title*,"3D magnetotelluric-derived electrical resistivity models of the Vulcan IOCG prospect under thick cover, South Australia"
+Dataset version*,
+Abstract*,"This dataset contains 3D electrical resistivity models derived from magnetotelluric (MT) data collected over the Vulcan iron-oxide copper–gold (IOCG) prospect, located ~30 km northeast of Olympic Dam, South Australia. The survey comprises 100 broadband MT sites on a 1 km grid across a 9 × 9 km area.
+
+Inversion of MT responses resolves three primary domains: (1) conductive sedimentary cover (~850 m thick), (2) a low-resistivity zone associated with haematite breccia beneath the cover, and (3) a vertically extensive conductive structure extending to several kilometres depth, interpreted as a pathway for mineralising fluids.
+
+Two model variants are included: a smooth inversion and a model incorporating a structural discontinuity (“tear”) at the base of the sedimentary cover, based on drillhole constraints. The models provide insight into lithospheric-scale fluid pathways and the geometry of IOCG mineral systems under conductive cover sequences."
+Topic category*,geoscientificInformation
+Field of research (FOR)*,https://linked.data.gov.au/def/anzsrc-for/2020/370401
+License*,Creative Commons Attribution 4.0 International
+Dataset lineage information*,"Three-dimensional electrical resistivity models derived from magnetotelluric (MT) data across the Vulcan iron-oxide copper–gold (IOCG) prospect in South Australia. The models image conductive sedimentary cover, a low-resistivity haematite breccia zone, and a deeper vertical conductive structure interpreted as a fluid pathway. Two inversion variants are provided: a smooth model and a structurally constrained “tear” model incorporating a known basement interface. These models provide constraints on subsurface structure and fluid pathways relevant to mineral exploration beneath thick conductive cover."
+Dataset format*,
+Dataset status,completed
+Maintenance frequency*,as needed
+Temporal extents* (if applicable),
+Spatial extents* (if applicable),
+Owner* (if applicable),
+Credit,
+Supplemental or supporting material,
+Local NCI file path,/g/data/nm08/MATE/Kay-2024-Vulcan-1
+DOI (NCI Internal Field),
+Keyword/s,"magnetotellurics, electrical resistivity, IOCG"
+Author 1,"Kay, Ben, Unknown, Unknown, https://orcid.org/0000-0002-9738-7277"
+Organisation/funding agency name,Geological Survey of South Australia
+Funding/award description or title,No grant ID provided
+Email address for the organisation/agency (if applicable),Email not provided
+Organisation/funding agency name,FMG Resources Pty Ltd
+Funding/award description or title,No grant ID provided
+Email address for the organisation/agency (if applicable),Email not provided
